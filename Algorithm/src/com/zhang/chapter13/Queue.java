@@ -21,6 +21,17 @@ public class Queue<Item> implements Iterable<Item> {
         N = 0;
     }
 
+    public Queue(Queue q) {
+        first = null;
+        last = null;
+        N = 0;
+        Node qFirst = q.first;
+        for (int i = 0; i < q.size(); i++) {
+            enqueue(qFirst.item);
+            qFirst = qFirst.next;
+        }
+    }
+
     public boolean isEmpty() {
         return N == 0;
     }
@@ -59,6 +70,13 @@ public class Queue<Item> implements Iterable<Item> {
         return first.item;
     }
 
+    //连接队列到后边
+    public void catenation(Queue q) {
+        while (!q.isEmpty()) {
+            this.enqueue((Item) q.dequeue());
+        }
+    }
+
     @Override
     public Iterator<Item> iterator() {
         return new ReverseItorator();
@@ -74,7 +92,7 @@ public class Queue<Item> implements Iterable<Item> {
 
         @Override
         public Item next() {
-            Item item = first.item;
+            Item item = current.item;
             current = current.next;
             return item;
         }

@@ -8,6 +8,8 @@ import java.util.Iterator;
 public class Stack<Item> implements Iterable<Item> {
     private Node first;
     private int N;
+    //pop和push的次数
+    private int operator;
     private class Node {
         Item item;
         Node next;
@@ -16,6 +18,17 @@ public class Stack<Item> implements Iterable<Item> {
     public Stack() {
         first = null;
         N = 0;
+    }
+
+    public Stack(Stack s) {
+        operator = 0;
+        first = null;
+        N = 0;
+        Node sFirst = s.first;
+        while (sFirst != null) {
+            push(sFirst.item);
+            sFirst = sFirst.next;
+        }
     }
 
     public boolean isEmpty() {
@@ -36,6 +49,7 @@ public class Stack<Item> implements Iterable<Item> {
         first.item = item;
         first.next = oldfirst;
         N++;
+        operator++;
     }
 
     /**
@@ -47,6 +61,7 @@ public class Stack<Item> implements Iterable<Item> {
         Item item = first.item;
         first = first.next;
         N--;
+        operator++;
         return item;
     }
 
@@ -59,6 +74,20 @@ public class Stack<Item> implements Iterable<Item> {
         return first.item;
     }
 
+    //连接一个栈
+    public void catenation(Stack s) {
+        Stack<Item> temp = new Stack<>();
+        while (first != null) {
+            temp.push(first.item);
+            first = first.next;
+            N--;
+        }
+        while (!temp.isEmpty()) s.push(temp.pop());
+        while (!s.isEmpty()) {
+            this.push((Item)s.pop());
+        }
+    }
+
     //构造迭代器
     @Override
     public Iterator<Item> iterator() {
@@ -67,14 +96,21 @@ public class Stack<Item> implements Iterable<Item> {
 
     private class reverseIterator implements Iterator<Item>{
         private Node current = first;
+        private int iniOperator = operator;
 
         @Override
         public boolean hasNext() {
+            if (operator != iniOperator) {
+                throw new java.util.ConcurrentModificationException();
+            }
             return current != null;
         }
 
         @Override
         public Item next() {
+            if (operator != iniOperator) {
+                throw new java.util.ConcurrentModificationException();
+            }
             Item item = current.item;
             current = current.next;
             return item;
@@ -84,6 +120,19 @@ public class Stack<Item> implements Iterable<Item> {
         public void remove() {
             return;
         }
+    }
+
+    //12题的要求，返回给定栈的副本
+    public Stack<Item> copy(Stack<Item> stack) {
+        Stack<Item> stackCopy = new Stack<>();
+        Stack<Item> stackTemp = new Stack<>();
+        for (Item item : stack) {
+            stackTemp.push(item);
+        }
+        for (Item item : stackTemp) {
+            stackCopy.push(item);
+        }
+        return stackCopy;
     }
 
     public static void main(String[] args) {

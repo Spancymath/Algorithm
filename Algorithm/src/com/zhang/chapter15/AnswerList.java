@@ -3,6 +3,13 @@ package com.zhang.chapter15;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 
+/**
+ * Union-find算法
+ * 1.算法定义-UF：包含除了union方法的实现
+ * 2.实现一（quick-find）:id数组存的是两个分量的表示，两个分量合并，把其中一个的根结点换成另一个
+ * 3.实现二（quick-union）:id数组存的上一个结点，find递归查出根结点，union只把根结点指向另一个根结点
+ * 4.实现三（加权quick-union）：记录树的大小，总是将小的树连到较大的树上
+ */
 public class AnswerList {
     String tinyUF = "C:\\Users\\Mather\\IdeaProjects\\Algorithm\\Algorithm\\file\\tinyUF.txt";
     String mediumUF = "C:\\Users\\Mather\\IdeaProjects\\Algorithm\\Algorithm\\file\\mediumUF.txt";

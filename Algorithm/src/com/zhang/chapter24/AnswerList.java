@@ -5,6 +5,18 @@ import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
+/**
+ * 优先队列
+ * 1.优先队列最重要的操作是删除最大元素和插入元素
+ * 2.堆：二叉堆的数组中，每个元素都大于等于另两个特定位置的元素
+ * 3.由下向上的堆有序化（上浮swim）
+ * 4.由上至下的堆有序化（下沉sink）
+ * 5.插入，把元素放入数组最后一个位置，上浮使堆有序
+ * 6.删除，删去第一个元素，把最后一个元素放入堆顶，下沉使堆有序
+ * 7.索引优先队列，为队列中的每个元素添加一个索引
+ * 8.堆排序：将元素依次加入堆中，并顺序取出堆顶元素
+ * 9.将N个元素排序，堆排序只需少于2NlgN+2N次比较，以及一半次数的交换
+ */
 public class AnswerList {
     /**
      * 2.4.1
@@ -316,6 +328,20 @@ public class AnswerList {
      * 2.4.30
      * 动态中位数查找
      * 见MedianFinding.java
+     */
+    /**
+     * 2.4.31
+     * 快速插入
+     * 见MinPQFastInsert.java
+     */
+    /**
+     * 2.4.32
+     * 下界
+     * 略
+     */
+    /**
+     * 2.4.33
+     * 索引优先队列
      */
     /**
      * 主方法

@@ -1,12 +1,15 @@
 package com.zhang.chapter31;
 
 
-import com.zhang.chapter11.BinarySearch;
 import edu.princeton.cs.algs4.*;
 import org.junit.jupiter.api.Test;
 
-import javax.swing.text.StyledDocument;
-
+/**
+ * 符号表
+ * 1.符号表是一种存储键值对的数据结构，支持两种操作：插入，即将一组新的键值对存入表中；查找，即根据给定的键得到相应的值
+ * 2.无序链表（每个结点存键和值）实现字典，顺序查找，因为需要判重，索引插入N个不同元素需要~N^2/2次比较
+ * 3.有序数组实现字典，用一对平行的数组，一个存键一个存值。查找时可以用二分查找，查找一个键需要（lgN+1）次比较
+ */
 public class AnswerList {
     /**
      * 3.1.8

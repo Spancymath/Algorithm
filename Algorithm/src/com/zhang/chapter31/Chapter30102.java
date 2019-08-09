@@ -86,7 +86,7 @@ public class Chapter30102 {
             keys[n] = key;
             n++;
         }
-        Value get(Key key) {
+        public Value get(Key key) {
             for (int i = 0; i < n; i++) {
                 if (((Key)keys[i]).equals(key)) {
                     //自组织查找

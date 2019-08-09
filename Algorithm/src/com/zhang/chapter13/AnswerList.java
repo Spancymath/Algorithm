@@ -5,6 +5,24 @@ import edu.princeton.cs.algs4.Date;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
+/**
+ * 背包、队列和栈
+ * 1.泛型
+ * 2.背包：不支持从中删除元素的数据类型
+ * 3.队列：先进先出
+ * 4.下压栈：后进先出
+ * 5.算术表达式求值
+ *   将操作数压入操作数栈
+ *   将运算符压入运算符栈
+ *   忽略左括号
+ *   遇到右括号，弹出一个运算符，弹出所需数量的操作数，并将运算符和操作数的结果压入操作数栈
+ * 6.调整数组大小：元素个数等于数组容量，数组扩容一倍；元素个数小于数组容量1/4，数组缩小一半
+ * 7.可迭代的数据类型
+ *   实现一个iterator()方法，并返回一个iterator对象
+ *   Iterator类必须包含两个方法：hasNext() 和 next()
+ *   在类的声明中加入implements Iterable<Item>
+ * 8.链表：是数组的一种重要的替代方式
+ */
 public class AnswerList {
     /**
      * 1.3.1 添加isFull（）方法

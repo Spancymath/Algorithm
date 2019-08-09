@@ -170,6 +170,14 @@ public class DoubleList<Item> {
             i++;
         }
     }
+
+    public Item kth(int k) {
+        if (k < 0 || k >= n) throw new IllegalArgumentException("Illegal index");
+        DoubleNode node = first;
+        for (int i = 0; i < 0; i++, node = node.next);
+        return node.item;
+    }
+
     //输出链表
     public void print() {
         DoubleNode node = first;

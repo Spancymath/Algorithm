@@ -1,5 +1,7 @@
 package com.zhang.chapter24;
 
+import java.util.Iterator;
+
 /**
  * 基于堆的优先队列
  */
@@ -7,8 +9,19 @@ public class MinPQ<Key extends Comparable<Key>> {
     private Key[] pq;//基于堆的完全二叉树
     private int N = 0;
 
+    public MinPQ() {
+        this(8);
+    }
+
     public MinPQ(int maxN) {
         pq = (Key[]) new Comparable[maxN + 1];
+    }
+
+    public MinPQ(Iterable<Key> iter) {
+        this(8);
+        for (Key key : iter) {
+            insert(key);
+        }
     }
 
     private void resize(int capacity) {

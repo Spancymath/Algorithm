@@ -3,7 +3,11 @@ package com.zhang.chapter22;
 import com.zhang.chapter13.Queue;
 
 /**
- * 课后习题答案
+ * 归并排序
+ * 1.原地归并：用一个辅助数组，两个指针都指向辅助数组，对比值填充到原数组
+ * 2.自顶向下的归并，递归
+ * 3.自底向上的归并排序
+ * 4.归并排序是一种渐进最优的基于比较排序的算法，复杂度NlgN
  */
 public class AnswerList {
     /**

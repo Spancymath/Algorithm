@@ -15,11 +15,25 @@ public class Bag<Item> implements Iterable<Item> {
     private class Node {
         Item item;
         Node next;
+        Node(){};
+        Node(Item item, Node next) {
+            this.item = item;
+            this.next = next;
+        }
     }
     //构造方法
     public Bag() {
         first = null;
         N = 0;
+    }
+
+    //复制背包
+    public Bag(Iterable<Item> bag) {
+        this.first = null;
+        N = 0;
+        for (Item item : bag) {
+            add(item);
+        }
     }
     //放入背包
     public void add(Item item) {
@@ -30,10 +44,18 @@ public class Bag<Item> implements Iterable<Item> {
         N++;
     }
 
+    public boolean contains(Item w) {
+        Node x = first;
+        while (x != null) {
+            if (x.item.equals(w)) return true;
+        }
+        return false;
+    }
+
     //重写迭代器
     @Override
     public Iterator<Item> iterator() {
-        return null;
+        return new ListIterator();
     }
     public class ListIterator implements Iterator<Item> {
         private Node current = first;
@@ -47,7 +69,7 @@ public class Bag<Item> implements Iterable<Item> {
         public Item next() {
             Item item = current.item;
             current = current.next;
-            return null;
+            return item;
         }
 
         @Override

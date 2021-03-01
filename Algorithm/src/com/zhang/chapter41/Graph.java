@@ -57,6 +57,7 @@ public class Graph {
         if (v == w) throw new RuntimeException("不允许自环");
         //不允许平行边
         if (hasEdge(v, w)) throw new RuntimeException("不允许平行边");
+
         adj[v].add(w);
         adj[w].add(v);
         E++;

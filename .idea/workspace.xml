@@ -2,118 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82776748-ae98-45a3-8755-aa24f3942506" name="Default Changelist" comment="20181120 add new">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/Algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/file/graph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/file/largeUF.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/Chapter42/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/Chapter42/Degrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/Chapter42/DepthFirstOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/Chapter42/Digraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/Chapter42/DirectedCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/Chapter42/DirectedDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/Chapter42/DirectedEulerianCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/Chapter42/KosarajuSCC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/Chapter42/Topological.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/Chapter42/TransitiveClosure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter11/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter12/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter24/IndexMinPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter24/MinPQFastInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter25/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter25/FindKth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter25/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter25/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter31/ST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter31/SequentialSearchST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter32/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter32/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter32/NonrecursiveBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter32/PerfectBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter33/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter33/RedBlackBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter34/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter34/LinearProbingHashST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter34/SeparateChainingHashST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter34/SeparateChainingHashSTDirect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/BinarySearchSET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/HashSET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/HashSETint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/HashSTint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/LRU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/MultiSET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/SET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/SETint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/STint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/SequentialSearchSET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/SparseMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/SparseVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/Uniqueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/BreadthFirstPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/CC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/Cycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/DepthFirstPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/DepthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/GraphProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/Paths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/SymbolsGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/TwoColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter43/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter43/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter43/EdgeWeightedGrpgh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter43/KruskalMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter43/LazyPrimMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter43/PrimMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/AcyclicSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/BellmanFordSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/DijkstraAllPairsSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/DijkstraSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/DirectedEdge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/EdgeWeightedDigraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter51/Alphabet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter51/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter51/LSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter51/MSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter51/Quick3String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter52/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter52/TST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter52/TrieST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter53/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter53/BoyerMoore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter53/BruteForceSubSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter53/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter53/KMPnormal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter53/RabinKarp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter54/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter54/NFA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter55/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter60/AnswerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/test/StaticByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter13/AnswerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter13/AnswerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/file/tinyGex2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/UnionFindSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/constant/Constent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter13/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter13/Bag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter13/DoubleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter13/DoubleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter14/AnswerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter14/AnswerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter15/AnswerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter15/AnswerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter21/AnswerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter21/AnswerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter22/AnswerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter22/AnswerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter23/AnswerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter23/AnswerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter24/AnswerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter24/AnswerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter24/MinPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter24/MinPQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter31/AnswerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter31/AnswerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter31/Chapter30102.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter31/Chapter30102.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/AnswerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/AnswerList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/GraphProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/GraphProperties.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,164 +28,84 @@
     <option name="hideWarnings" value="true" />
     <option name="HIDE_WARNINGS" value="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1357316180">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="27" />
-          <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.12" value="3" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.180" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="8" />
-          <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="35" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="26" />
-          <entry key="classpath" value="2" />
-          <entry key="infix" value="2" />
-          <entry key="java" value="383" />
-          <entry key="lackLeftParen" value="2" />
-          <entry key="lackParen" value="1" />
-          <entry key="note" value="1" />
-          <entry key="prefs" value="1" />
-          <entry key="project" value="1" />
-          <entry key="properties" value="1" />
-          <entry key="txt" value="25" />
-          <entry key="vmoptions" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="26" />
-          <entry key="Eclipse" value="3" />
-          <entry key="JAVA" value="383" />
-          <entry key="PLAIN_TEXT" value="33" />
-          <entry key="Properties" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="3" />
-          <entry key="infix" value="34" />
-          <entry key="java" value="170288" />
-          <entry key="lackLeftParen" value="20" />
-          <entry key="lackParen" value="549" />
-          <entry key="note" value="216" />
-          <entry key="properties" value="5" />
-          <entry key="txt" value="153" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="170288" />
-          <entry key="PLAIN_TEXT" value="975" />
-          <entry key="Properties" value="5" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="Algorithm" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter52/TST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter52/TrieST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="111" column="33" lean-forward="true" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter52/AnswerList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter53/BoyerMoore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter53/AnswerList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter34/AnswerList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter55/AnswerList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter54/AnswerList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter60/AnswerList.java">
+        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/AnswerList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="514">
+              <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/AnswerList.java">
+        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/GraphProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="494">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <element signature="e#1868#1869#0" expanded="true" />
+                <element signature="e#1899#1900#0" expanded="true" />
+                <element signature="e#1938#1939#0" expanded="true" />
+                <element signature="e#1967#1968#0" expanded="true" />
+                <element signature="e#2014#2015#0" expanded="true" />
+                <element signature="e#2042#2043#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm/file/tinyGex2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/UnionFindSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="28" />
+              <folding>
+                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#1199#1200#0" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/DepthFirstSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/BreadthFirstPaths.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-450">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -320,13 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/Chapter42/AnswerList.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter43/Edge.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter43/EdgeWeightedGrpgh.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter43/LazyPrimMST.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter43/PrimMST.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter43/AnswerList.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter24/MinPQ.java" />
         <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter43/KruskalMST.java" />
         <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/EdgeweightedDigraph.java" />
         <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/DijkstraSP.java" />
@@ -371,14 +181,15 @@
         <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter53/AnswerList.java" />
         <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter54/AnswerList.java" />
         <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter55/AnswerList.java" />
+        <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter13/Bag.java" />
+        <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/Graph.java" />
+        <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/constant/Constent.java" />
+        <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/UnionFindSearch.java" />
+        <option value="$PROJECT_DIR$/Algorithm/file/tinyGex2.txt" />
+        <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/GraphProperties.java" />
+        <option value="$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/AnswerList.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -386,11 +197,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="170" />
-    <option name="y" value="93" />
-    <option name="width" value="1570" />
-    <option name="height" value="1010" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="740" />
+    <option name="y" value="71" />
+    <option name="width" value="1133" />
+    <option name="height" value="928" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -421,6 +232,22 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="picture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="picture" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -434,25 +261,19 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zhang" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter55" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zhang" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter60" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter41" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Mather/IdeaProjects/Algorithm/Algorithm/src/com/zhang/chapter41/AnswerList.java" />
@@ -463,22 +284,24 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\Algorithm\Algorithm\picture\chapter4" />
+      <recent name="C:\Users\Mather\IdeaProjects\Algorithm\Algorithm\file" />
+      <recent name="C:\Users\Mather\IdeaProjects\Algorithm\Algorithm\src\com\zhang\chapter31" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zhang.Chapter42" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Mather\IdeaProjects\Algorithm\Algorithm\file" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zhang.chapter24" />
       <recent name="com.zhang.chapter13" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\Algorithm\Algorithm\picture\chapter4" />
       <recent name="C:\Users\Mather\IdeaProjects\Algorithm\Algorithm\file" />
-      <recent name="C:\Users\Mather\IdeaProjects\Algorithm\Algorithm\src\com\zhang\chapter31" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -493,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnswerList">
+  <component name="RunManager" selected="JUnit.AnswerList.drawGragh419">
     <configuration name="AnswerList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhang.chapter34.AnswerList" />
       <module name="Algorithm" />
@@ -520,32 +343,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnswerList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhang.chapter41.AnswerList" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhang.Chapter42.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticByName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhang.test.StaticByName" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhang.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhang.test.Test" />
       <module name="Algorithm" />
@@ -559,19 +356,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AnswerList.drawGragh419" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhang.chapter41.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhang.chapter41" />
+      <option name="MAIN_CLASS_NAME" value="com.zhang.chapter41.AnswerList" />
+      <option name="METHOD_NAME" value="drawGragh419" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnswerList.test07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhang.chapter41.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhang.chapter41" />
+      <option name="MAIN_CLASS_NAME" value="com.zhang.chapter41.AnswerList" />
+      <option name="METHOD_NAME" value="test07" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.AnswerList" />
-      <item itemvalue="Application.StaticByName" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.AnswerList (1)" />
       <item itemvalue="Application.AnswerList (2)" />
+      <item itemvalue="JUnit.AnswerList.test07" />
+      <item itemvalue="JUnit.AnswerList.drawGragh419" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnswerList.drawGragh419" />
+        <item itemvalue="JUnit.AnswerList.test07" />
         <item itemvalue="Application.AnswerList (2)" />
         <item itemvalue="Application.AnswerList (1)" />
         <item itemvalue="Application.AnswerList (1)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -638,12 +468,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnswerList_test24 - 2018.11.09 at 00h 07m 38s.xml">
-      <configuration name="AnswerList.test24" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerList_test24 - 2018.11.09 at 00h 15m 11s.xml">
-      <configuration name="AnswerList.test24" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnswerList_test24 - 2018.11.09 at 00h 22m 35s.xml">
       <configuration name="AnswerList.test24" configurationId="JUnit" />
     </history-entry>
@@ -668,6 +492,12 @@
     <history-entry file="AnswerList_test24 - 2018.11.11 at 15h 17m 08s.xml">
       <configuration name="AnswerList.test24" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AnswerList_test07 - 2021.02.14 at 14h 12m 05s.xml">
+      <configuration name="AnswerList.test07" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerList_drawGragh419 - 2021.02.14 at 16h 18m 25s.xml">
+      <configuration name="AnswerList.drawGragh419" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1017573000" />
@@ -682,9 +512,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="75" width="1256" height="808" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48444444" visible="true" weight="0.16777964" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48444444" visible="true" weight="0.11767838" />
       <window_info id="Structure" order="1" sideWeight="0.51555556" side_tool="true" weight="0.2247285" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -693,7 +524,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.51555556" side_tool="true" weight="0.2247285" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520767" weight="0.2962963" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49520767" visible="true" weight="0.26304108" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4311111" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -703,6 +534,8 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50479233" side_tool="true" weight="0.21560283" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32735425" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32592592" />
+      <window_info anchor="right" id="RestServices" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24931881" />
@@ -749,9 +582,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20181120 add new" />
     <option name="LAST_COMMIT_MESSAGE" value="20181120 add new" />
@@ -793,9 +623,6 @@
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
       </breakpoints-defaults>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -895,111 +722,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/DijkstraAllPairsSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/AcyclicSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/DijkstraSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter24/MinPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/Chapter42/Digraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/DirectedEdge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/BellmanFordSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/test/StaticByName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter44/EdgeWeightedDigraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="424" lean-forward="true" selection-start-line="424" selection-end-line="424" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter51/Alphabet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter51/LSD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter25/Insertion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter51/MSD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter51/Quick3String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter53/KMPnormal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1144,13 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/AnswerList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/Chapter42/AnswerList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1181,71 +896,181 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter52/TST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="627">
           <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter52/TrieST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="111" column="33" lean-forward="true" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/AnswerList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter34/AnswerList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="1995">
+          <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter52/AnswerList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="95">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter53/BoyerMoore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="627">
           <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter53/AnswerList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="171">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter34/AnswerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter54/AnswerList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="209">
           <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter35/AnswerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter55/AnswerList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter60/AnswerList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="266">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter13/Bag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Algorithm/lib/algs4.jar!/edu/princeton/cs/algs4/In.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="186" column="47" lean-forward="true" selection-start-line="186" selection-start-column="47" selection-end-line="186" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/picture/chapter4/4.1.02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/picture/chapter4/4.1.02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/constant/Constent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="83" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/DepthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/IntUnaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-653">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="101" column="25" lean-forward="true" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/UnionFindSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/file/tinyGex2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/picture/chapter4/4.1.09.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/picture/chapter4/4.1.09-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/BreadthFirstPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/GraphProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#1899#1900#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+            <element signature="e#1967#1968#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="e#2042#2043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/zhang/chapter41/AnswerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
         </state>
       </provider>
     </entry>

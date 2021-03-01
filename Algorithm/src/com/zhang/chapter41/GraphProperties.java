@@ -4,8 +4,15 @@ package com.zhang.chapter41;
  * 得到图的直径、半径
  */
 public class GraphProperties {
-    //离心率
+    // 离心率
     private int eccentricity[];
+    // G的直径
+    private int diameter;
+    // G的半径
+    private int radius;
+    // G的某个中点
+    private int center;
+
     public GraphProperties(Graph G) {
         eccentricity = new int[G.V()];
         for (int i = 0; i < G.V(); i++) {
@@ -18,6 +25,10 @@ public class GraphProperties {
             }
             eccentricity[i] = max;
         }
+
+        diameter = calDiameter();
+        radius = calRadius();
+        center = calCenter();
     }
 
     //v的离心率
@@ -26,8 +37,8 @@ public class GraphProperties {
         return eccentricity[v];
     }
 
-    //G的直径
-    public int diameter() {
+    // 计算G的直径
+    private int calDiameter() {
         int diameter = 0;
         for (int i = 0; i < eccentricity.length; i++) {
             if (eccentricity[i] > diameter) {
@@ -37,8 +48,8 @@ public class GraphProperties {
         return diameter;
     }
 
-    //G的半径
-    public int radius() {
+    // 计算G的半径
+    private int calRadius() {
         int radius = 0x7fffffff;
         for (int i = 0; i < eccentricity.length; i++) {
             if (eccentricity[i] < radius) {
@@ -48,8 +59,8 @@ public class GraphProperties {
         return radius;
     }
 
-    //G的某个中点
-    public int center() {
+    // 计算G的某个中点
+    private int calCenter() {
         int radius = 0x7fffffff;
         int vertex = -1;
         for (int i = 0; i < eccentricity.length; i++) {
@@ -59,5 +70,20 @@ public class GraphProperties {
             }
         }
         return vertex;
+    }
+
+    // G的直径
+    public int diameter() {
+        return diameter;
+    }
+
+    // G的半径
+    public int radius() {
+        return radius;
+    }
+
+    // G的某个中点
+    public int center() {
+        return center;
     }
 }

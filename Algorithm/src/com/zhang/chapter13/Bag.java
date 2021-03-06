@@ -15,7 +15,9 @@ public class Bag<Item> implements Iterable<Item> {
     private class Node {
         Item item;
         Node next;
-        Node(){};
+
+        Node() {}
+
         Node(Item item, Node next) {
             this.item = item;
             this.next = next;

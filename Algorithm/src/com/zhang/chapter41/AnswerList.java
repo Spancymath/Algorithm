@@ -2,6 +2,9 @@ package com.zhang.chapter41;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
+import org.junit.jupiter.api.Test;
+
+import static com.zhang.constant.Constent.PROJECT_DIRECTORY;
 
 /**
  * 无向图
@@ -50,14 +53,19 @@ public class AnswerList {
      *      一幅含有V个顶点的连通图至少含有V-1条边
      */
     /**
+     * 4.1.2
+     * Solution:
+     *      picture/chapter4/4.1.02.jpg
+     */
+    /**
      * 4.1.3 4.1.4 4.1.5
      * Solution:
-     *      详见Graph.java
+     *      详见Graph.java: Graph(Graph G)  hasEdge(int v, int w)  addEdge(int v, int w)
      */
     /**
      * 4.1.6 不可能构造出来的图
      * Solution:
-     *      构造是成对的，穿插顺序，就是不可能出现的顺序
+     *      构造成对的，并穿插顺序，就是不可能出现的顺序，比如
      *      0:1 3
      *      1:2 0
      *      2:3 1
@@ -70,17 +78,39 @@ public class AnswerList {
      * Solution:
      *
      */
+    @Test
     public void test07() {
-        In in = new In("C:\\Users\\Mather\\IdeaProjects\\Algorithm\\Algorithm\\file\\graph.txt");
+        In in = new In(PROJECT_DIRECTORY + "file\\graph.txt");
         Graph graph = new Graph(in);
         StdOut.println(graph.toString());
     }
-
+    /**
+     * 4.1.8 使用union-find 实现search
+     * Solution:
+     *      UnionFindSearch
+     */
+    /**
+     * 4.1.9 dfs轨迹
+     * Solution:
+     *      因为不连通部分遍历不到，所以不考虑那一部分
+     *      轨迹：picture/chapter4/4.1.09.jpg
+     *      edgeTo[]表示的树：picture/chapter4/4.1.09-1.jpg
+     */
+    @Test
+    public void drawGraph419() {
+        In in = new In(PROJECT_DIRECTORY + "file\\tinyGex2.txt");
+        Graph graph = new Graph(in);
+        StdOut.println(graph.toString());
+    }
     /**
      * 4.1.10 删除不影响连通性的顶点
      * Solution:
-     *      找到相邻顶点全被标记的顶点，返回
+     *      证明：首先，任意一幅连通图中的顶点都可以通过dfs遍历，从而也必然存在这样一个顶点，在遍历到它之前，
+     *          所有与它相连的顶点都已经被遍历，比如最后一个遍历到的顶点肯定是这样。从而删掉这个顶点和相连的边，
+     *          其他顶点间至少存在一条edgeTo[]的路径，所以图还是连通的。
+     *      程序：如下，找到相邻顶点全被标记的顶点，返回
      */
+    @Test
     public void test10() {
         Graph G = new Graph(new In());
         boolean[] marked = new boolean[G.V()];
@@ -105,11 +135,16 @@ public class AnswerList {
         }
         return -1;
     }
+    /**
+     * 4.1.11 广度优先能否求多源最短路径
+     * Solution:
+     *      picture/chapter4/4.1.11.jpg
+     */
 
     /**
      * 4.1.12 广度优先能否求多源最短路径
      * Solution:
-     *      No
+     *      可以。分别得到v和w到根节点的路径，删除重叠部分即可
      */
 
     /**
@@ -120,7 +155,7 @@ public class AnswerList {
     /**
      * 4.1.14 广度优先换队列为栈可以不
      * Solution:
-     *      No
+     *      No。换成栈之后就成了深度优先搜索。
      */
     /**
      * 4.1.15 构造函数输入邻接表
@@ -138,6 +173,11 @@ public class AnswerList {
      *      用Cycle判断，是无环图则返回无穷大
      *      遍历每一个顶点，进行广度优先搜索；对每一个可达的顶点（排除与起点相邻顶点），最小环的长度为起点到此点的最短路径
      *      加上起点到此点相邻顶点（排除到此顶点最短路径的上一个顶点）的最短路径长度加1
+     */
+    /**
+     * 4.1.18 CC 寻找连通分量的轨迹
+     * Solution:
+     *      picture/chapter4/4.1.18.jpg
      */
     /**
      * 4.1.28 Cycle允许自环和平行边
@@ -158,11 +198,4 @@ public class AnswerList {
      *      顶点不在一个环中
      *      该顶点的邻接顶点除了路径的前一个顶点，还有且仅有一个其他顶点与它相邻
      */
-    /**
-     * 测试主方法
-     */
-    public static void main(String[] args) {
-        AnswerList al = new AnswerList();
-        al.test07();
-    }
 }
